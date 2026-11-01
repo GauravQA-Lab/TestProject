@@ -4,7 +4,7 @@ public class RevStringWithoutBuiltin
 public static void main(String args[])
 {
 RevStringWithoutBuiltin obj= new RevStringWithoutBuiltin();
-    obj.reverseStringWithoutBuiltInMethod();
+obj.reverseStringWithoutBuiltInMethod();
 }
 public void reverseStringWithoutBuiltInMethod()
 {
@@ -14,9 +14,7 @@ public void reverseStringWithoutBuiltInMethod()
     for(i = strArray.length-1; i>=0; i--)
     {
         rev=rev+strArray[i]+" ";
-
     }
     System.out.println(rev);
 }
-
 }
